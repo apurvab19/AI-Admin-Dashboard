@@ -1,35 +1,27 @@
-📊 Dumroo Admin AI Panel
-An intelligent admin assistant built with Streamlit, LangChain, and OpenRouter AI, designed to help school administrators analyze student data using natural language queries — with role-based access filtering.
+# 📊 Dumroo Admin AI Panel<br>
+An intelligent admin assistant built using Streamlit, LangChain, and OpenRouter AI, designed to help school administrators analyze student data using natural language queries — with role-based access control.<br><br>
 
-🚀 Setup Instructions
-Clone the repository
+# 🚀 Setup Instructions<br>
+1. Clone the repository<br>
+2. Install dependencies (create a virtual environment if needed):<br>
+   `pip install -r requirements.txt`<br>
+3. Add your API key:<br>
+   Create a `.env` file and add:<br>
+   `OPENROUTER_API_KEY=your_openrouter_api_key`<br>
+   (You can also use `OPENAI_API_KEY` instead)<br>
+4. Run the app:<br>
+   `streamlit run app.py`<br><br>
 
-git clone <repository_url>
-Install dependencies
-(Create and activate a virtual environment first, if desired)
+# 📂 Folder Structure<br>
+├── app.py &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Streamlit UI<br>
+├── dumroo_query_system.py &nbsp;&nbsp; # Core AI logic<br>
+├── student_data.csv &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Sample dataset<br>
+├── .env &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # API key (keep secret)<br>
+└── requirements.txt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Dependencies<br><br>
 
+# 💬 Example Queries<br>
+Ask these after selecting Grade, Class, and Region in the app:<br>
+- "Who hasn’t submitted homework?"<br>
+- "List all students in my region."<br><br>
 
-pip install -r requirements.txt
-Add your API key
-Create a .env file in the root directory and add your OpenRouter or OpenAI API key:
-
-OPENROUTER_API_KEY="your_openrouter_api_key"
-or
-OPENAI_API_KEY="your_openai_api_key"
-
-Run the app
-streamlit run app.py
-
-📂 Folder Structure
-.
-├── app.py                  # Streamlit interface
-├── dumroo_query_system.py  # Main AI logic
-├── student_data.csv        # Sample student data
-├── .env                    # API key (not committed)
-└── requirements.txt        # Python dependencies
-
-💬 Example Queries
-Ask these in the chat input after selecting the desired Grade, Class, and Region:
-"Show me the top 5 students by overall percentage."
-"Which students have attendance below 75%?"
-"What is the average score in Mathematics?"
+The AI will respond based only on your selected Grade, Class, and Region — ensuring data privacy and role-based access.<br>
