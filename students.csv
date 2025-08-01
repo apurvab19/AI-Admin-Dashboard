@@ -1,0 +1,8 @@
+student_id,student_name,grade,region,homework_title,homework_status,homework_submission_date,quiz_title,quiz_scheduled_date,quiz_score,performance_record_date
+101,Liam Johnson,8,North,Algebra Chapter 1,Submitted,2025-07-28,Algebra Basics,2025-08-05,88,2025-07-28
+102,Ava Williams,8,North,Algebra Chapter 1,Not Submitted,,Algebra Basics,2025-08-05,,2025-07-22
+103,Noah Brown,9,South,Geometry Basics,Submitted,2025-07-29,Geometry Intro,2025-08-06,92,2025-07-29
+104,Olivia Jones,9,South,Geometry Basics,Submitted,2025-07-27,Geometry Intro,2025-08-06,85,2025-07-27
+105,William Garcia,8,West,Algebra Chapter 1,Submitted,2025-07-30,Algebra Basics,2025-08-05,95,2025-07-30
+106,Sophia Miller,10,North,Trigonometry Intro,Not Submitted,,Trigonometry Test,2025-08-12,,2025-07-25
+107,James Davis,9,West,Geometry Basics,Not Submitted,,Geometry Intro,2025-08-06,,2025-07-21
