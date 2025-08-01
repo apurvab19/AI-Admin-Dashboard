@@ -2,33 +2,34 @@
 An intelligent admin assistant built with Streamlit, LangChain, and OpenRouter AI, designed to help school administrators analyze student data using natural language queries — with role-based access filtering.
 
 🚀 Setup Instructions
-Clone the repo
+Clone the repository
 
+git clone <repository_url>
 Install dependencies
-(Create a virtual environment if needed)
+(Create and activate a virtual environment first, if desired)
+
 
 pip install -r requirements.txt
-
 Add your API key
+Create a .env file in the root directory and add your OpenRouter or OpenAI API key:
 
-Create a .env file:
-
-OPENROUTER_API_KEY=your_openrouter_api_key or you can use OPENAI API KEY 
+OPENROUTER_API_KEY="your_openrouter_api_key"
+or
+OPENAI_API_KEY="your_openai_api_key"
 
 Run the app
 streamlit run app.py
+
 📂 Folder Structure
-├── app.py                     # Streamlit interface
-├── dumroo_query_system.py     # Main AI logic
-├── student_data.csv           # Sample student data
-├── .env                       # API key (not to be committed)
-└── requirements.txt
+.
+├── app.py                  # Streamlit interface
+├── dumroo_query_system.py  # Main AI logic
+├── student_data.csv        # Sample student data
+├── .env                    # API key (not committed)
+└── requirements.txt        # Python dependencies
 
 💬 Example Queries
-Ask these in the chat input after selecting Grade, Class, and Region:
-
-"Who hasn't submitted homework?"
-"List all students in my region?"
-
-The AI will answer based only on the selected Grade, Class, and Region — ensuring data privacy and role-based access.
-
+Ask these in the chat input after selecting the desired Grade, Class, and Region:
+"Show me the top 5 students by overall percentage."
+"Which students have attendance below 75%?"
+"What is the average score in Mathematics?"
