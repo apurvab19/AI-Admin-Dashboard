@@ -24,6 +24,8 @@ Ask these after selecting Grade, Class, and Region in the app:<br>
 - "Who hasn’t submitted homework?"<br>
 - "List all students in my region."<br><br>
 
-The AI will respond based only on your selected Grade, Class, and Region — ensuring data privacy and role-based access.<br>
+The AI will respond based only on your selected Grade, Class, and Region — ensuring data privacy and role-based access.<br><br>
+
+<img width="1919" height="876" alt="Image" src="https://github.com/user-attachments/assets/4a4fed9c-e82c-44e3-a319-00b8ab883f78" />
 
 <img width="1919" height="868" alt="Image" src="https://github.com/user-attachments/assets/7f76b4a1-484f-4f02-8486-da0cfe915167" />
