@@ -1,4 +1,4 @@
-# 📊 Dumroo Admin AI Panel<br>
+# 📊 Admin AI Panel<br>
 An intelligent admin assistant built using Streamlit, LangChain, and OpenRouter AI, designed to help school administrators analyze student data using natural language queries — with role-based access control.<br><br>
 
 # 🚀 Setup Instructions<br>
